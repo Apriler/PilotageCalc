@@ -1,15 +1,17 @@
+package turn;
+
 /**
  * 计算转弯半径
  * 输入： 1.速度  单位:公里/小时  ，量程：1-1999
  *       2.坡度  单位：度 ，量程：1-89
- *       3.转角  单位：
  * 输出： 半径   单位： 米
  */
-public class TurnTimeCalc {
+public class TurnRadiusCalc {
 
     public static void main(String[] args) {
-
+        //速度
         double var3 =100.0;
+        //坡度
         double var5 =30.0;
 
         double var6 = 3.141592653589793D * (double)var5 / 180.0D;
