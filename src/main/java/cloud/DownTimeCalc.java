@@ -3,7 +3,7 @@ package cloud;
 import com.ycjr.poiltcalculation.activity.cloud.DownTime;
 
 /**
- * 计算转弯坡度
+ * 1.下降时间
  * 输入： 1.穿云高度  单位:公里/小时
  *       2.降至高度   单位： 米
  *       3.下降率  单位：米/秒
